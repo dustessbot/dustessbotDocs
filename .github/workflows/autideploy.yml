@@ -20,6 +20,14 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           npm install hexo-cli -g
+          npm install --global gulp-cli
+          npm install gulp-htmlclean
+          npm install gulp-html-minifier-terser
+          npm install gulp-clean-css
+          npm install gulp-terser
+          npm install gulp-uglify
+          npm install gulp-babel @babel/core @babel/preset-env
+          npm install gulp-imagemin
           npm install yuque-hexo -g
           yuque-hexo clean
           yuque-hexo sync
@@ -35,12 +43,12 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           npm install --save
-          git clong -b 3.4.2 https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 
       - name: 生成静态文件
         run: |
           hexo clean
           hexo generate
+          gulp
 
       - name: 部署
         run: |
