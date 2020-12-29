@@ -24,8 +24,6 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           npm install hexo-cli
-          #npm gulp-cli -g
-          #如果你有使用gulp的话，打开上面这一行
           npm install yuque-hexo -g
           yuque-hexo clean
           yuque-hexo sync
@@ -46,8 +44,6 @@ jobs:
         run: |
           hexo clean
           hexo g
-          #gulp
-          #如果你有使用gulp的话，打开上面这一行
 
       - name: 部署
         run: |
