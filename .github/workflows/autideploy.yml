@@ -20,14 +20,14 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           npm install hexo-cli -g
-          npm install --global gulp-cli
-          npm install gulp-htmlclean
-          npm install gulp-html-minifier-terser
-          npm install gulp-clean-css
-          npm install gulp-terser
-          npm install gulp-uglify
-          npm install gulp-babel @babel/core @babel/preset-env
-          npm install gulp-imagemin
+          npm install gulp-cli -g
+          npm install gulp-htmlclean -g
+          npm install gulp-html-minifier-terser -g
+          npm install gulp-clean-css -g
+          npm install gulp-terser -g
+          npm install gulp-uglify -g
+          npm install gulp-babel @babel/core @babel/preset-env -g
+          npm install gulp-imagemin -g
           npm install yuque-hexo -g
           yuque-hexo clean
           yuque-hexo sync
