@@ -3,7 +3,6 @@ var cleanCSS = require('gulp-clean-css')
 var htmlmin = require('gulp-htmlmin')
 var htmlclean = require('gulp-htmlclean')
 var imagemin = require('gulp-imagemin')
-
 var uglify = require('gulp-uglify')
 var babel = require('gulp-babel')
 
