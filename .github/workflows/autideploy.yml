@@ -35,6 +35,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           npm install --save
+          git clong -b 3.4.2 https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 
       - name: 生成静态文件
         run: |
