@@ -1,6 +1,5 @@
 name: 自动部署
 
-# 当有改动推送和语雀发布时，启动Action
 on: [push, repository_dispatch]
 
 jobs:
@@ -11,9 +10,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: main
-
-      #2020年10月后github新建仓库默认分支改为main，注意更改
-      #但私有仓库貌似还是master并没有变
 
       - name: 安装 Node
         uses: actions/setup-node@v1
@@ -43,7 +39,7 @@ jobs:
       - name: 生成静态文件
         run: |
           hexo clean
-          hexo g
+          hexo generate
 
       - name: 部署
         run: |
