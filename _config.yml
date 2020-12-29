@@ -104,5 +104,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://dustess:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKza7ipfELAn7zS0wkF1Lzgy/QP1p+dEIuRaLxGNvZ1PEjBW/E4+4XmtKO/YJkZecmJzY1v/M4cZeGLkPOeadGVNghXd1hSIKtox138drAtZyCqP+NGf1MMmSoopnXb2sieNpmZGbVhRkCRXL/kruzfQBp48Yk7M2OnLGdGnQfIbtSwae5+BJuI0rHQ7CUrsvboNpY8vLfOPg3+jCaBndoZF+v0iGCL0AwHEx/jdbH9db88P1qiP3BNLoJXBy4yc8RZ/RdnjcxvVxnD3uKsC8mWUkOtzqJhfw/veu2U3L4BDml35yq0dv5cttNM1NNwRkAj0wFm93y5KMcp43iuBIp constown@126.com@github.com/Zfour/zfe-2.0.git
+  repo: https://dustessbot:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKza7ipfELAn7zS0wkF1Lzgy/QP1p+dEIuRaLxGNvZ1PEjBW/E4+4XmtKO/YJkZecmJzY1v/M4cZeGLkPOeadGVNghXd1hSIKtox138drAtZyCqP+NGf1MMmSoopnXb2sieNpmZGbVhRkCRXL/kruzfQBp48Yk7M2OnLGdGnQfIbtSwae5+BJuI0rHQ7CUrsvboNpY8vLfOPg3+jCaBndoZF+v0iGCL0AwHEx/jdbH9db88P1qiP3BNLoJXBy4yc8RZ/RdnjcxvVxnD3uKsC8mWUkOtzqJhfw/veu2U3L4BDml35yq0dv5cttNM1NNwRkAj0wFm93y5KMcp43iuBIp constown@126.com@github.com/dustessbot/dustessbot.github.io.git
   branch: master
