@@ -6,8 +6,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "yuquesync": "yuque-hexo sync",
-    "yuqueclean": "yuque-hexo clean",
+    "sync": "yuque-hexo sync",
+    "clean:yuque": "yuque-hexo clean",
     "server": "hexo clean && hexo generate && gulp && hexo server"
   },
   "hexo": {
